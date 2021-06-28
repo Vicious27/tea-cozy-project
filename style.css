@@ -1,4 +1,28 @@
 body {
-  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+  margin: 0;
+}
+
+header {
+  height: 69px;
+  position: fixed;
+  text-decoration: underline;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  padding: 10px;
+}
+
+#navbar a {
+  align-content: flex-end;
+  align-items: flex-end;
+
+}
+
+header#logo {
+  height: 50px;
 }
 
