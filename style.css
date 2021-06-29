@@ -6,6 +6,8 @@ body {
   opacity: 0.9;
 }
 
+/*======================= NAVBAR CSS ========================*/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +24,21 @@ a.nav-flex-item {
   height: 50px;
   padding: 10px;
 }
+
+/*====================== MAIN CSS =============================*/
+
+
+article.mission-container {
+  background-image: url(./mission-background.png);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 
 
