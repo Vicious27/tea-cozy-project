@@ -15,6 +15,7 @@ body {
 
 a.nav-flex-item {
   padding-left: 16px;
+  text-decoration: underline seashell 1px;
 }
 
 #logo {
