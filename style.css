@@ -1,9 +1,9 @@
 body {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: rgb(0, 0, 0);
   opacity: 0.9;
+  font-size: 22px;
 }
 
 /*======================= NAVBAR CSS ========================*/
@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  width: auto;
 }
 
 a.nav-flex-item {
@@ -42,14 +43,22 @@ article.mission-container {
   justify-content: center;
 }
 
-.article-items-container  {
+div.article-items-container  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: black;
   width: 1200px;
-  height: 150px;
+  max-height: 160px;
+}
+
+h2 {
+  margin:10px;
+}
+
+h4 {
+  margin: 6px ;
 }
 
 
