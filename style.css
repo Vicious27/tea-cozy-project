@@ -31,6 +31,7 @@ a.nav-flex-item {
 main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 article.mission-container {
@@ -61,8 +62,29 @@ h4 {
   margin: 6px ;
 }
 
+/*====================== TEA OF THE MONTH ===================*/
 
 
+h2.month-tea {
+  margin-top: 69px;
+}
+
+h2.month-tea,
+h4.month-tea {
+  text-align: center;
+}
+
+article#tea-article-container {
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-picture-container img {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
 
 
 
