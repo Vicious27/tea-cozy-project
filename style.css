@@ -18,7 +18,7 @@ body {
 
 a.nav-flex-item {
   padding-left: 16px;
-  text-decoration: underline seashell 1px;
+  text-decoration: underline seashell 1px; 
 }
 
 #logo {
@@ -78,7 +78,9 @@ article#tea-article-container {
   width: 1000px;
 }
 
-.tea-picture-container {
+/*===================== TEA IMAGE MASON GRID ==============*/
+
+#tea-picture-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
