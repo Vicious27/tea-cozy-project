@@ -62,7 +62,7 @@ h4.mission {
   margin: 6px ;
 }
 
-/*====================== TEA OF THE MONTH ===================*/
+/*====================== TEA OF THE MONTH Styles ===================*/
 
 
 h2.month-tea {
@@ -78,7 +78,7 @@ article#tea-article-container {
   width: 1000px;
 }
 
-/*===================== TEA IMAGE MASON GRID ==============*/
+/*===================== IMG MASON GRID Styles ==============*/
 
 #tea-picture-container {
   display: flex;
@@ -97,6 +97,58 @@ article#tea-article-container {
   padding-bottom: 10px;
 }
 
+/*========== LOCATION Styles ==========*/
+
+address {
+  background-image: url(./locations-background.png);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-flex-items > * {
+  flex: 1 1 10em;
+  text-align: center;
+  padding: 40px;
+}
+
+div.location-flex-item-1 {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.location-flex-item-1 h3 {
+  font-size: 35px;
+}
+
+
+div.location-flex-item-2 {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.location-flex-item-2 h3 {
+  font-size: 35px;
+}
+
+div.location-flex-item-3 {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+
+.location-flex-item-3 h3 {
+  font-size: 35px;
+}
 
 
 
