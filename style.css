@@ -131,7 +131,7 @@ div.location-flex-item-1 {
   height: auto;
   text-align: center;
   margin-right: 40px;
-  color: rgba(255, 245, 238, 0.856);
+  color: rgba(255, 245, 238, 0.884);
 }
 
 .location-flex-item-1 h3 {
@@ -145,7 +145,7 @@ div.location-flex-item-2 {
   height: auto;
   text-align: center;
   margin-right: 40px;
-  color: rgba(255, 245, 238, 0.856);
+  color: rgba(255, 245, 238, 0.884);
 }
 .location-flex-item-2 h3 {
   font-size: 30px;
@@ -157,7 +157,7 @@ div.location-flex-item-3 {
   width: 300px;
   height: auto;
   text-align: center;
-  color: rgba(255, 245, 238, 0.856);
+  color: rgba(255, 245, 238, 0.884);
 }
 .location-flex-item-3 h3 {
   font-size: 30px;
@@ -169,8 +169,16 @@ div.location-flex-item-3 {
   height: 200px;
   text-align: center;
   margin-top: -15px;
+  color: rgba(255, 245, 238, 0.884);
 }
 
+/*==================== FOOTER =================*/
+
+#footer {
+  text-align: left;
+  padding-left: 20px;
+  color: rgba(255, 245, 238, 0.884);
+}
 
 
 
