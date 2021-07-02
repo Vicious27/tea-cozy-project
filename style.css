@@ -163,12 +163,17 @@ div.location-flex-item-3 {
   font-size: 30px;
 }
 
-/*============== FOOTER Styles ===============*/
+/*============== CONTACT SECTION ===============*/
 
- #footer h2 {
+ #contact {
+  height: 200px;
   text-align: center;
-  margin: 6px;
+  margin-top: -15px;
 }
+
+
+
+
 
 
 
