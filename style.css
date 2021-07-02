@@ -98,7 +98,7 @@ article#tea-article-container {
 }
 
 /*========== LOCATION Styles ==========*/
-
+/* background-image: url(./locations-background.png); */
 address {
   background-image: url(./locations-background.png);
   height: 500px;
@@ -108,46 +108,50 @@ address {
   justify-content: center;
 }
 
+
 .location-flex-items > * {
   flex: 1 1 10em;
   text-align: center;
   padding: 40px;
 }
 
+/* location item 1*/
 div.location-flex-item-1 {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   width: 300px;
   height: auto;
   text-align: center;
   margin-right: 40px;
+  color: rgba(255, 245, 238, 0.856);
 }
 
 .location-flex-item-1 h3 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
-
+/* location item 2*/
 div.location-flex-item-2 {
   background-color: black;
   width: 300px;
   height: auto;
   text-align: center;
   margin-right: 40px;
+  color: rgba(255, 245, 238, 0.856);
 }
-
 .location-flex-item-2 h3 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
+/* location item 3*/
 div.location-flex-item-3 {
   background-color: black;
   width: 300px;
   height: auto;
   text-align: center;
+  color: rgba(255, 245, 238, 0.856);
 }
-
 .location-flex-item-3 h3 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 
