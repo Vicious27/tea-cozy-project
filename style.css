@@ -98,7 +98,7 @@ article#tea-article-container {
 }
 
 /*========== LOCATION Styles ==========*/
-/* background-image: url(./locations-background.png); */
+
 address {
   background-image: url(./locations-background.png);
   height: 500px;
@@ -161,6 +161,13 @@ div.location-flex-item-3 {
 }
 .location-flex-item-3 h3 {
   font-size: 30px;
+}
+
+/*============== FOOTER Styles ===============*/
+
+ #footer h2 {
+  text-align: center;
+  margin: 6px;
 }
 
 
