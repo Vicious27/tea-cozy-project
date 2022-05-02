@@ -133,13 +133,6 @@ address {
   justify-content: center;
 }
 
-
-.location-flex-items > * {
-  flex: 1 1 10em;
-  text-align: center;
-  padding: 40px;
-}
-
 div.location-banner {
   width: 300px;
   height: auto;
